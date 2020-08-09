@@ -49,7 +49,7 @@
 <ul>
 <li>对于rawdata -LB不要先处理其他变量，先转置成BDS结果再处理和筛选可能会方便一点;所以我们直接sort by 所有变量即可</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">**对于rawdata -LB不要先处理其他变量，先转置成BDS结果再处理和筛选可能会方便一点;</span><br><span class="line">proc sort data&#x3D;lb out&#x3D;lb1;</span><br><span class="line">    by _all_;</span><br><span class="line">run;</span><br></pre></td></tr></table></figure>
+<figure class="highlight sas"><table><tr><td class="code"><pre><span class="line"><span class="comment">**对于rawdata -LB不要先处理其他变量，先转置成BDS结果再处理和筛选可能会方便一点;</span></span><br><span class="line"><span class="keyword">proc sort </span>data=lb <span class="meta">out</span>=lb1;</span><br><span class="line">    <span class="meta">by</span> <span class="literal">_all_</span>;</span><br><span class="line"><span class="keyword">run;</span></span><br></pre></td></tr></table></figure>
 
 <ul>
 <li>对我们需要的<font color="red">lborres、lborresu、lbclsig类</font>变量转置</li>
