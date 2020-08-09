@@ -231,6 +231,20 @@
             </span>
 
           
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/08/09/%E5%A4%9A%E4%B8%AA%E6%A3%80%E6%9F%A5%E9%A1%B9%E5%8F%98%E9%87%8F%E8%BD%AC%E7%BD%AE%E4%B8%BABDS%E7%BB%93%E6%9E%84/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/08/09/%E5%A4%9A%E4%B8%AA%E6%A3%80%E6%9F%A5%E9%A1%B9%E5%8F%98%E9%87%8F%E8%BD%AC%E7%BD%AE%E4%B8%BABDS%E7%BB%93%E6%9E%84/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -241,7 +255,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="1-问题描述"><a href="#1-问题描述" class="headerlink" title="1.问题描述"></a>1.问题描述</h1><p>我在做临床研究sas编程的时候会遇到各种不同的EDC数据结构，其中关于LB域可能并不一开始就是标准的BDS结构，可能有些EDC系统在收集的时候会将多个检查项作为多个变量收集并记录在EDC中，具体的结构见下图：</p>
+          <h1>1.问题描述</h1>
+<p>我在做临床研究sas编程的时候会遇到各种不同的EDC数据结构，其中关于LB域可能并不一开始就是标准的BDS结构，可能有些EDC系统在收集的时候会将多个检查项作为多个变量收集并记录在EDC中，具体的结构见下图：</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2020/08/09/%E5%A4%9A%E4%B8%AA%E6%A3%80%E6%9F%A5%E9%A1%B9%E5%8F%98%E9%87%8F%E8%BD%AC%E7%BD%AE%E4%B8%BABDS%E7%BB%93%E6%9E%84/#more" rel="contents">
@@ -303,6 +318,20 @@
               </span>
 
           
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/08/01/hello-world/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/08/01/hello-world/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -527,6 +556,35 @@
   
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'rStvoK7m2SeaqH0X27LUPySJ-gzGzoHsz',
+      appKey     : 'hTUgGbSJDSHBPabmpdpe3Rml',
+      placeholder: "���ڴ˴�������������",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : 'zh-CN' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>
