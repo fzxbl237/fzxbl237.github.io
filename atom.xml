@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-03T15:20:54.559Z</updated>
+  <updated>2020-08-03T14:08:42.533Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,54 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>test1</title>
-    <link href="http://yoursite.com/2020/08/03/test1/"/>
-    <id>http://yoursite.com/2020/08/03/test1/</id>
-    <published>2020-08-03T03:56:52.000Z</published>
-    <updated>2020-08-03T15:20:54.559Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="test"><a href="#test" class="headerlink" title="test"></a>test</h3>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot; title=&quot;test&quot;&gt;&lt;/a&gt;test&lt;/h3&gt;
-      
-    
-    </summary>
-    
-    
-    
-      <category term="xxx" scheme="http://yoursite.com/tags/xxx/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2020/08/01/test/"/>
-    <id>http://yoursite.com/2020/08/01/test/</id>
-    <published>2020-08-01T03:56:52.000Z</published>
-    <updated>2020-08-01T03:58:35.680Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="test"><a href="#test" class="headerlink" title="test"></a>test</h3>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot; title=&quot;test&quot;&gt;&lt;/a&gt;test&lt;/h3&gt;
-      
-    
-    </summary>
-    
-    
-    
-      <category term="xxx" scheme="http://yoursite.com/tags/xxx/"/>
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
