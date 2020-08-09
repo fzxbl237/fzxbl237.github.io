@@ -79,9 +79,9 @@
 </li>
 <li><p>上述代码不需要控制输出变量的长度，即不需要担心输出变量会因为长度不够而被截断的问题；</p>
 </li>
-<li><p>上述转置代码的<font color="red">ASSIGN</font>语句少，耦合性可能会好一点（就是这么不要脸🤪）；</p>
+<li><p>上述转置代码的<font color="red">ASSIGN</font>语句少，耦合性可能会好一点（就是这么不要脸）；</p>
 </li>
-<li><p>上文的代码只是<span style="background-color:yellow;">针对问题情景我个人的一点思路</span>，肯定不会是最优解，如果有问题，那你TM来打我啊🤪。</p>
+<li><p>上文的代码只是<span style="background-color:yellow;">针对问题情景我个人的一点思路</span>，肯定不会是最优解，如果有问题，那你TM来打我啊。</p>
 </li>
 </ul>
 ]]></content>
